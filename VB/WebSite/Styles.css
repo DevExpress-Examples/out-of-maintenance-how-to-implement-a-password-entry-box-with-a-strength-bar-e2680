@@ -1,0 +1,33 @@
+﻿.negativeBar {
+    background-color: #E8E8E8;
+}
+.pwdBlankBar .positiveBar {
+    width: 0%;
+}
+.pwdBlankBar .negativeBar {
+    width: 100%;
+}
+
+.pwdWeakBar .positiveBar {
+    background-color: Red;
+    width: 30%;
+}
+.pwdWeakBar .negativeBar {
+    width: 70%;
+}
+
+.pwdFairBar .positiveBar {
+    background-color: #FFCC33;
+    width: 65%;
+}
+.pwdFairBar .negativeBar {
+    width: 35%;
+}
+
+.pwdStrengthBar .positiveBar {
+    background-color: Green;
+    width: 100%;
+}
+.pwdStrengthBar .negativeBar {
+    width: 0%;
+}

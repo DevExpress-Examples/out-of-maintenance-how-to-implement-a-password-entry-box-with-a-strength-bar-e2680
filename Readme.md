@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Complete.aspx](./CS/WebSite/Complete.aspx) (VB: [Complete.aspx.vb](./VB/WebSite/Complete.aspx.vb))
+* [Complete.aspx.cs](./CS/WebSite/Complete.aspx.cs) (VB: [Complete.aspx.vb](./VB/WebSite/Complete.aspx.vb))
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Scripts.js](./CS/WebSite/Scripts.js) (VB: [Scripts.js](./VB/WebSite/Scripts.js))
+* [Styles.css](./CS/WebSite/Styles.css)
+<!-- default file list end -->
 # How to implement a password entry box with a strength bar
 
 

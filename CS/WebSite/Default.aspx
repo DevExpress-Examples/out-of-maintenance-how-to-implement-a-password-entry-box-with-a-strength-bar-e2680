@@ -11,12 +11,11 @@
 </head>
 <body>
     <div>
-        <h2>
-            Create account</h2>
+        <h2>Create account</h2>
         <form id="createAccount" runat="server">
             <div style="height: 150px">
-                <table border="0" cellspacing="0px" cellpadding="5px">
-                    <tbody valign="top">
+                <table border="0">
+                    <tbody>
                         <tr>
                             <td>
                                 <dx:ASPxLabel ID="lbLogin" runat="server" Text="Login Name:" AssociatedControlID="tbLogin">
@@ -54,14 +53,11 @@
                                 <dx:ASPxLabel ID="lbMessagePassword" ClientInstanceName="lbMessagePassword" runat="server"
                                     Text="Empty">
                                 </dx:ASPxLabel>
-                                <table id="PasswordStrengthBar" class="pwdBlankBar" border="0" cellspacing="0" cellpadding="0"
-                                    style="height: 4px; width: 220px">
+                                <table id="PasswordStrengthBar" class="pwdBlankBar" border="0" style="height: 4px; width: 220px">
                                     <tbody>
                                         <tr>
-                                            <td id="PositiveBar" class="positiveBar">
-                                            </td>
-                                            <td id="NegativeBar" class="negativeBar">
-                                            </td>
+                                            <td id="PositiveBar" class="positiveBar"></td>
+                                            <td id="NegativeBar" class="negativeBar"></td>
                                         </tr>
                                     </tbody>
                                 </table>

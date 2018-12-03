@@ -1,26 +1,21 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
-<%@ Register Assembly="DevExpress.Web.v18.2" Namespace="DevExpress.Web"
-    TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.Web.v18.2, Version=18.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
 
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head runat="server">
     <title>How to implement a password entry box with a strength bar</title>
     <link rel="Stylesheet" href="Styles.css" />
-
     <script type="text/javascript" src="Scripts.js"></script>
-
 </head>
 <body>
     <div>
-        <h2>
-            Create account</h2>
+        <h2>Create account</h2>
         <form id="createAccount" runat="server">
             <div style="height: 150px">
-                <table border="0" cellspacing="0px" cellpadding="5px">
-                    <tbody valign="top">
+                <table border="0">
+                    <tbody>
                         <tr>
                             <td>
                                 <dx:ASPxLabel ID="lbLogin" runat="server" Text="Login Name:" AssociatedControlID="tbLogin">
@@ -58,14 +53,11 @@
                                 <dx:ASPxLabel ID="lbMessagePassword" ClientInstanceName="lbMessagePassword" runat="server"
                                     Text="Empty">
                                 </dx:ASPxLabel>
-                                <table id="PasswordStrengthBar" class="pwdBlankBar" border="0" cellspacing="0" cellpadding="0"
-                                    style="height: 4px; width: 220px">
+                                <table id="PasswordStrengthBar" class="pwdBlankBar" border="0" style="height: 4px; width: 220px">
                                     <tbody>
                                         <tr>
-                                            <td id="PositiveBar" class="positiveBar">
-                                            </td>
-                                            <td id="NegativeBar" class="negativeBar">
-                                            </td>
+                                            <td id="PositiveBar" class="positiveBar"></td>
+                                            <td id="NegativeBar" class="negativeBar"></td>
                                         </tr>
                                     </tbody>
                                 </table>

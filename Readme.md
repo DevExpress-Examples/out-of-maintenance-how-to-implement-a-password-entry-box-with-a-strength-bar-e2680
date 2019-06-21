@@ -9,6 +9,9 @@
 * [Styles.css](./CS/WebSite/Styles.css)
 <!-- default file list end -->
 # How to implement a password entry box with a strength bar
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e2680/)**
+<!-- run online end -->
 
 
 <p>The following example demonstrates a way of implementing a password entry box with a strength bar.<br />
